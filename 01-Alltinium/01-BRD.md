@@ -28,7 +28,7 @@ Frontend :
 
 ### Quote Form Fields
 
-## Verification Setup
+## Email Verification Setup
 
 ```text
 OTP valid: 5 minutes
@@ -72,3 +72,42 @@ Rate limit: 5 OTP requests/hour/email
                                    ▼
                      Contact & Quote Forms Submit
 ```
+
+### Search bar logic
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│ 🔍 Search materials...                                      │
+└──────────────────────────────────────────────────────────────┘
+
+Material Categories
+
+[ All 52 ] [ Aluminium 18 ] [ Titanium 12 ]
+[ Nickel 10 ] [ Special Steels 12 ]
+
+Material Forms
+
+[ All 52 ] [ Bar 18 ] [ Plate 8 ]
+[ Sheet 9 ] [ Pipe 5 ] [ Tube 12 ]
+
+───────────────────────────────────────────────────────────────
+
+Available Materials                      Clear Filters
+
+Showing 18 materials
+
+┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+│              │ │              │ │              │
+│ MaterialCard │ │ MaterialCard │ │ MaterialCard │
+│              │ │              │ │              │
+└──────────────┘ └──────────────┘ └──────────────┘
+
+```
+
+---
+
+# What pages and sections should contain
+
+## Home Page
+
+### HeroSection
