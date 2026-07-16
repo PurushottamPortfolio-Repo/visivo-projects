@@ -3,30 +3,169 @@
 > Inside this project we have to develop a company **_product showcase portfolio website_** using below stack.
 
 ```text
-Frontend :
+Teck Stack :
     1. Next.Js
     2. TypeScript
     3. Tailwind CSS
     4. Shad CN Components
     5. Resend Email System
-    6. Cookies for Email verification
+    6. Cookies for sessions
+    7. DataBase for otp storage and user verification
 ```
 
-#
+# What pages and sections should contain
 
-## What pages should contain
+## 1. Home Page [Landing Page]
 
-### Home Page
+### HeroSection
+- Background Image
+- Content displayed(title and text)
+- Buttons(color, style)
+- Below stripe display
 
-### About Page
+### Displaying marquee section
+- Content
 
-### Service Page
+### ServicesSection
+- Background 
+- Content
+- Cards 
 
-### Material Page
+### Material Section
+- Background
+- content
+- material card
 
-### Contact Page
+### Why choose us
+- Background
+- content
+- material card
 
-### Quote Form Fields
+### Network Section
+- Background
+- content
+- network map
+
+### Industries Section
+- Background
+- Content 
+- Cards
+
+### CTA Section
+- Background colour gradient
+- Content
+- Buttons
+- Cards
+
+### Blog Section
+- Background
+- content
+- Blogs card
+
+---
+
+## 2. About Page
+
+### HeroSection
+- Background Image
+- Content displayed(title and text)
+- Buttons(color, style)
+- Below stripe display
+
+### Content about the compnay
+- Image 
+- Company detail
+
+### What drives us
+- Content
+- Cards
+
+### Founder Images
+- Iamges
+- Social Icons
+- Content about the founders
+
+### Timeline
+- Content 
+- logo
+- Style
+
+### Below stripe
+
+- Content
+- Button
+
+---
+
+## 3. Materials Page
+
+### Page Layout
+
+### HeroSection
+- Image and content
+
+### Material Cards
+- Material Image
+- Material Title
+- Grade
+- Specifications
+- Applications
+- Buttons (RFQ & Datesheet)
+
+---
+
+## 4. Services Page
+
+### HeroSection
+- Image
+- content & buttons
+
+### Services Display
+- Cards
+
+### Service Card
+- Content
+
+---
+
+## 5. Contact Page
+
+### HeroSection
+- Image
+- Content & Buttons
+
+### Form 
+- Content
+
+### Form Inputs
+- Name*
+- Email*
+- Company(optional)
+- Phone(optional)
+- Topic dropdown*
+  - Sales/RFQ (default)
+  - Partner Onboarding
+  - Lab Test Booking
+  - Press
+  - Others
+- Message*
+
+### Form Validation
+- Set max and min input length
+- Email verification via otp
+
+### Company details
+- Email
+- Phone
+- HeadQuarter Address
+- Branches(if available)
+
+---
+
+## RFQ Form
+
+- All Fields as per lovable
+
 
 ## Email Verification Setup
 
@@ -105,9 +244,3 @@ Showing 18 materials
 ```
 
 ---
-
-# What pages and sections should contain
-
-## Home Page
-
-### HeroSection
